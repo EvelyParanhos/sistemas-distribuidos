@@ -1,6 +1,6 @@
 const express = require ('express');
+const db = require('./db').db;
 const fs = require ('fs');
-const db = require('.db').db;
 const app = express();
 const arquivo = 'jogos.db';
 const APP_PORT = process.env.APP_PORT || 3000;
