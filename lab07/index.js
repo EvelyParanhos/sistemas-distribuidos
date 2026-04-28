@@ -1,5 +1,7 @@
 const express = require ('express');
 const db = require('./db').db;
+const JogoDAO = require('./daos/JogoDAO');
+const EmpresaDAO = require('./daos/EmpresaDAO');
 const fs = require ('fs');
 const app = express();
 const arquivo = 'jogos.db';
